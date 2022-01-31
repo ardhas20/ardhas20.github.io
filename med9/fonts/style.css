@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Dongle:wght@300&family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Dongle:wght@300&family=Roboto+Slab:wght@100&display=swap');
+
+
+
+h1 {
+	background-color: purple;
+	padding:50px;
+	font-size:60px;
+	text-align:center;
+	font-weight:bold;
+	letter-spacing:5px;
+	font-family: "Bree Serif";
+
+
+}
+
+
+
+h2 {
+	padding:30px;
+	background-color: purple;
+	font-size: 40px;
+	text-align:right;
+    font-family: 'Dancing Script', cursive;
+	
+}
+
+p {
+	padding:30px;
+	font-size:25px;
+	text-align:justify;
+	column-count: 3;
+	line-height:1.7;
+	font-family: "Dongle";
+
+
+}
+
+
+.name {
+      font-family: 'Inconsolata';
+      font-size: 50px;
+      column-count: 1;
+      padding: 50px;
+      background-color: purple;
+      color: white;
+      border-radius: 20px;
+      transform: rotate(-5deg);
+
+
+}
+
+body{
+	 background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,0.39539565826330536) 100%);;
+}
