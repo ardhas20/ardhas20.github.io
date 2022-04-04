@@ -1,0 +1,152 @@
+/*
+*
+* Title: Eine Website über das City
+* Author: Ardita Hasmegaj
+* Date: 28.03.2022
+*
+*/
+
+
+
+/************************* General Styling **************************/
+
+
+body{
+	margin: 0;
+}
+
+/* Navigation */
+nav{
+	background-color: black;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+nav img {
+	height: 120px;
+	border-radius: 50%;
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+}
+
+
+nav ul li a{
+	margin: 10px;
+	padding: 20px;
+	background-color: black;
+	color: orange;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+nav ul li a:hover {
+	background-color: blue;
+	color: white;
+}
+
+
+/* Header */
+header{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+	background-position: center;
+	color: black;
+}
+
+header h1{
+	padding: 30px;
+	background-color: rgba(255,255,255,0.7);
+	font-size: 40px;
+	border-radius: 20px;
+	color: orange;
+}
+
+/* Main*/
+main{
+	padding: 80px;
+}
+
+/* Footer */
+footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 300px;
+	background: rgb(242,167,25);
+background: radial-gradient(circle, rgba(242,167,25,1) 100%, rgba(164,117,47,1) 100%);
+}
+
+footer p {
+	padding: 30px;
+	font-size: 20px;
+	color: steelblue;
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 20px;
+}
+
+
+
+/*************************** Page Styling ********************************/
+
+/* Home Page */
+#home header {
+	background-image: url("bg.jpg");
+}
+
+
+#home main{
+	background-color: orange;
+}
+
+
+#home main h2{
+	background-color: white;
+}
+
+
+
+/* Animal Page */
+#animals header {
+	background-image: url("dog-bg.jpg");
+}
+
+#animals main{
+	background-color: white;
+}
+
+#animals section {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+#animals section .left {
+	width: 30%;
+	background-color: red;
+}
+
+#animals section .right{
+	width: 70%;
+	background-color: yellow ;
+}
+
+/* Flowers Page */
+
+#flowers header  {
+	background-image: url("flowers-bg.jpg");
+}
+
+#flowers main{
+	background-color: black;
+}
