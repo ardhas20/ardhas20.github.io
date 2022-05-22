@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+/*********Ardita**********/
+
+/* General Styling */
+
+*{
+    font-family: 'Koulen', cursive;
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+
+
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: url("logo.png");
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    padding: 20px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    width: auto;
+    padding: 10px;
+}
+
+ul li a:hover{
+    background-color: #333;
+    border-radius: 15px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+/* Index style */
+
+#index header{
+    padding-top: 80px;
+    text-align: center;
+}
+
+#index section{
+   padding-top: 50px;
+    height: 80vh;
+    background: linear-gradient(32deg, rgba(45,253,163,1) 7%, rgba(34,67,136,1) 75%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#index section .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(161, 162, 162) ;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+/* Products styling */
+
+#products header{
+    padding-top: 80px;
+    text-align: center;
+}
+
+#products main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#products article{
+    padding: 20px;
+}
+
+
+#products article .image{
+    height: 240px;
+    width: 300px;
+ background-position: center;
+    background-size: cover;    
+    padding: 20px;
+  
+}
+
+#products article .text{
+    height: 275px;
+    width: 300px;
+    background-color: whitesmoke;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+#products article .footer a{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+#products article .text .header{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+#products article .text .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+/* about style */
+
+#about header{
+
+        padding-top: 80px;
+        text-align: center;
+    
+}
+
+#about main{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(32deg, rgba(45,253,163,1) 7%, rgba(34,67,136,1) 75%);
+}
+
+#about main h1{
+    width: 50%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+#about main p{
+    width: 50%;
+    padding: 20px;
+    color: wheat;
+    font-size: 20px;
+}
